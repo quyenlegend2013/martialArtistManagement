@@ -1,7 +1,7 @@
 <?php
 	require "connect/connect.php";
 	if(ISSET($_POST['res'])){
-		$sql ="SELECT * FROM coach c INNER JOIN role r ON c.roleID = r.roleID";
+		$sql ="SELECT * FROM coach";
 	$retval=mysqli_query($conn,$sql);
 	$stt=1;
 		while($rs=mysqli_fetch_assoc($retval))
