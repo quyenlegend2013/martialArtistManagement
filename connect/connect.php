@@ -1,7 +1,7 @@
 <?php
-$servername = "den1.mssql8.gear.host";
-$username = "martial";
+$servername = "den1.mssql7.gear.host";
+$username = "martials";
 $password = "martial@";
-$dbname = "martial";
+$dbname = "martials";
 $conn = mysqli_connect($servername,$username,$password,$dbname);
 ?>
